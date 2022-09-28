@@ -1,0 +1,242 @@
+@font-face {
+    font-family: cocobiker;
+    src: url('../assets/fonts/cocobiker/CocoBiker\ Regular\ Trial.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+body {
+    width: 100vw;
+    height: 140vh;
+}
+
+header {
+    background-color: #006D77;
+    width: 100vw;
+    height: 110px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    position: relative;
+}
+
+.header__firstSection {
+    width: 300px;
+    height: 100%;
+    display: inline-block;
+}
+
+.header__firstSection a {
+    text-decoration: none;
+}
+
+.header__firstSection__p {
+    
+    font-family: cocobiker, sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    color: #EDF6F9;
+    position: relative;
+    left: 8vw;
+    top: 2.5vh;
+}
+
+.header__secondsection{
+    width: 50vw;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    position: relative;
+    left: 6vw;
+    bottom: 2vh;
+}
+
+ul {
+    margin-left: 20px;
+    list-style-type: none;
+    text-align: center;
+    font-size: 40px;
+    font-weight:500;
+    position: relative;
+    top: 4vh;
+    text-align: right;
+}
+
+ul li {
+    display: inline-block;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.main {
+    width: 100vw;
+    height: 110vh;
+}
+.main__imageSection {
+    height: 40vh;
+    width: 100vw;
+}
+
+.main__imageSection__img {
+    width:100vw;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.main__div1 {
+    height: 150px;
+    width: 200px;
+    position: relative;
+    top: 50px;
+    left: 320px;
+    display: inline-block; 
+}
+
+.main__div1__img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit:cover;
+}
+
+.main__div2 {
+    height: 150px;
+    width: 200px;
+    position: relative;
+    top: 35px;
+    left: 380px;
+    display: inline-block;
+    margin: 0 90px;
+}
+
+.main__div2__img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit:cover;
+}
+
+.main__div3 {
+    height: 150px;
+    width: 200px;
+    position: relative;
+    top: 25px;
+    left: 420px;
+    display: inline-block;
+}
+
+.main__div3__img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit:cover;
+}
+
+.main__divTexto1 {
+    height: 60px;
+    width: 215px;
+    position: relative;
+    top: 170px;
+    right: 475px;
+    display: inline-block;
+    text-align: center;
+}
+
+.main__divTexto1__span {
+    font-size: 20px;
+    color: #006D77;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.main__divTexto1__p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(4, 4, 4);
+}
+
+.main__divTexto2 {
+    height: 50px;
+    width: 215px;
+    position: relative;
+    top: 170px;
+    right: 340px;
+    display: inline-block;
+    text-align: center;
+}
+
+.main__divTexto2__span {
+    font-size: 20px;
+    color: #006D77;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.main__divTexto2__p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main__divTexto3 {
+    height: 50px;
+    width: 225px;
+    position: relative;
+    top: 150px;
+    right: 225px;
+    display: inline-block;
+    text-align: center;
+}
+
+.main__divTexto3__span {
+    font-size: 20px;
+    color: #006D77;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.main__divTexto3__p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.footer {
+    width: 100vw;
+    height: 90px;
+    background-color: #006D77;
+    
+}
+
+.footer__section {
+    position: relative;
+    top: 6px;
+    width: 100vw;
+    height: 90px;
+}
+
+.footer__section__list {
+    list-style-type: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight:500;
+    position: relative;
+    top: 4vh;
+    text-align: center;
+}
+    
+.footer__section__list__item {
+    display: inline-block;
+}
+    
+.footer__section__list__item {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding-left: 1em;      
+}
